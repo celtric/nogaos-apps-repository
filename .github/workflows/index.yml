@@ -1,0 +1,44 @@
+name: Index
+
+# index.html, the store's front page on GitHub Pages, is generated from the tree by scripts/index.py: every channel's
+# catalog and every published jar. A publisher pushes apps/ and catalogs/, and this run rewrites the page after it.
+# The bot's commit touches only index.html, which is outside the paths below, so it never triggers another run.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'apps/**'
+      - 'catalogs/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: index
+  cancel-in-progress: false
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Write the index
+        run: python3 -I scripts/index.py
+      - name: Commit the index
+        run: |
+          if [ -z "$(git status --porcelain -- index.html)" ]; then
+            echo "The index is unchanged."; exit 0
+          fi
+          sha=$(git rev-parse --short HEAD)
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html
+          git commit -m "Index for $sha"
+          # A publisher may push between the checkout and this push; take its commit underneath and try once more.
+          if git push origin HEAD:main; then
+            exit 0
+          fi
+          git pull --rebase origin main
+          git push origin HEAD:main
