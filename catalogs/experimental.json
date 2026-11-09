@@ -1,0 +1,180 @@
+{
+  "format": 1,
+  "name": "Experimental apps",
+  "apps": [
+    {
+      "id": "blood",
+      "name": {
+        "en": "Blood",
+        "ca": "La sang"
+      },
+      "version": "2",
+      "description": {
+        "en": "Find out what is inside your blood, follow it on its trip around the body, plug a cut with platelets and answer a little quiz.",
+        "ca": "Descobreix què hi ha dins la teva sang, segueix-la en el seu viatge pel cos, tapa una ferida amb plaquetes i respon un petit qüestionari."
+      },
+      "author": "NoGaOS",
+      "sdkVersion": ">=194",
+      "languages": [
+        "en",
+        "ca"
+      ],
+      "permissions": [
+        "SPEECH"
+      ],
+      "category": "EDUCATION",
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/blood/2/nogaos-app-blood-2.jar",
+      "sha256": "607c80734df093fa33b8ae5647984f845edfdc093379b46d97af146dc82a83e5"
+    },
+    {
+      "id": "bricks",
+      "name": {
+        "en": "Bricks",
+        "ca": "Peces"
+      },
+      "version": "2",
+      "description": {
+        "en": "Build a model brick by brick in 3D, following step-by-step instructions.",
+        "ca": "Construeix un model peça a peça en 3D seguint instruccions pas a pas."
+      },
+      "author": "NoGaOS",
+      "sdkVersion": ">=153",
+      "languages": [
+        "en",
+        "ca"
+      ],
+      "permissions": [],
+      "category": "GAMES",
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/bricks/2/nogaos-app-bricks-2.jar",
+      "sha256": "07c507f921a26eff041fa2b20cec8c4c577ab68c6998b38af028e4ec8330caea"
+    },
+    {
+      "id": "geography",
+      "name": {
+        "en": "Geography",
+        "ca": "Geografia"
+      },
+      "version": "2",
+      "description": {
+        "en": "Learn the map, from the towns next door to the countries of the world: look around, find the place, name it.",
+        "ca": "Aprèn el mapa, dels pobles del costat als països del món: fes-hi un cop d'ull, troba el lloc, digues-ne el nom."
+      },
+      "author": "NoGaOS",
+      "sdkVersion": ">=139",
+      "languages": [
+        "en",
+        "ca"
+      ],
+      "permissions": [],
+      "category": "EDUCATION",
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/geography/2/nogaos-app-geography-2.jar",
+      "sha256": "cfae4b4ed3b2d155467218e2c8c1fbf3a1a3be7c199e2c0fc2bf8a411ec1bd43"
+    },
+    {
+      "id": "globe",
+      "name": {
+        "en": "Globe",
+        "ca": "Globus terraqüi"
+      },
+      "version": "2",
+      "description": {
+        "en": "Shows the Earth in 3D. Drag to spin it, scroll to zoom.",
+        "ca": "Mostra la Terra en 3D. Arrossega per rotar, roda per apropar."
+      },
+      "author": "NoGaOS",
+      "sdkVersion": ">=139",
+      "languages": [
+        "en",
+        "ca"
+      ],
+      "permissions": [
+        "INTERNET",
+        "USER_APP_CACHE"
+      ],
+      "category": "EDUCATION",
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/globe/2/nogaos-app-globe-2.jar",
+      "sha256": "4ad035b4daedb1d9e820c947fd3d420acb0dd3c9a1552e6e3136c65b20a70dd6"
+    },
+    {
+      "id": "newspaper",
+      "name": {
+        "en": "Newspaper",
+        "ca": "Diari"
+      },
+      "version": "2",
+      "description": {
+        "en": "Make your own newspaper: choose how each page looks, write the headlines and the stories, add pictures and print it on A4 paper.",
+        "ca": "Fes el teu propi diari: tria com és cada pàgina, escriu-hi els titulars i les notícies, posa-hi imatges i imprimeix-lo en paper A4."
+      },
+      "author": "NoGaOS",
+      "sdkVersion": ">=195",
+      "languages": [
+        "en",
+        "ca"
+      ],
+      "permissions": [
+        "PRINT"
+      ],
+      "fileExtensions": [
+        {
+          "extension": "diari",
+          "icon": "32x32-only/newspaper2.ico",
+          "creatable": true,
+          "name": {
+            "en": "Newspaper",
+            "ca": "Diari"
+          }
+        }
+      ],
+      "category": "PROGRAMS",
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/newspaper/2/nogaos-app-newspaper-2.jar",
+      "sha256": "6d5703286f0c516fd52e9eddb5e1c3b6bdd22a2c34682a14a9dc96c8564a6438"
+    },
+    {
+      "id": "space",
+      "name": {
+        "en": "Space",
+        "ca": "Espai"
+      },
+      "version": "2",
+      "description": {
+        "en": "Turn the Earth to see day and night, follow it around the Sun, watch the Moon change shape and zoom out to the planets and the Milky Way.",
+        "ca": "Fes girar la Terra per veure el dia i la nit, segueix-la al voltant del Sol, mira com canvia la Lluna i allunya't fins als planetes i la Via Làctia."
+      },
+      "author": "NoGaOS",
+      "sdkVersion": ">=191",
+      "languages": [
+        "en",
+        "ca"
+      ],
+      "permissions": [],
+      "fileExtensions": [],
+      "category": "EDUCATION",
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/space/2/nogaos-app-space-2.jar",
+      "sha256": "9008d5be595b18036a5809867a72657f53cdc02971083714dd225e3880dfe284"
+    },
+    {
+      "id": "trig",
+      "name": {
+        "en": "Trigonometry",
+        "ca": "Trigonometria"
+      },
+      "version": "2",
+      "description": {
+        "en": "Turn a Ferris wheel to see how high and how far to the side its cabin goes, then play rounds of ten questions.",
+        "ca": "Fes girar una sínia per veure a quina alçada i a quina distància arriba la cabina, i després juga rondes de deu preguntes."
+      },
+      "author": "NoGaOS",
+      "sdkVersion": ">=191",
+      "languages": [
+        "en",
+        "ca"
+      ],
+      "permissions": [],
+      "fileExtensions": [],
+      "category": "EDUCATION",
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/trig/2/nogaos-app-trig-2.jar",
+      "sha256": "d7804718e5501ab28023a3c492f0979af325c07271dc73092523daa62bb046c3"
+    }
+  ]
+}
