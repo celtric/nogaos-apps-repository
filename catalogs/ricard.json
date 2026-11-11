@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "name": "Ricard's experiments",
+  "apps": [
+    {
+      "id": "navigation",
+      "name": {
+        "en": "Navigation",
+        "ca": "Navegació"
+      },
+      "version": "1",
+      "description": {
+        "en": "Where you are from a GPS receiver plugged into the computer, the towns and ports of the Catalan coast with their radio channels, your own waypoints, distance and bearing to a place, your trips recorded into files of your own to replay later, and VHF call sheets. Not a chart: use nautical charts to navigate.",
+        "ca": "On ets segons un receptor GPS connectat a l'ordinador, els pobles i ports de la costa catalana amb els seus canals de ràdio, els teus punts de pas, la distància i el rumb fins a un lloc, les travessies desades en fitxers teus per tornar-les a veure, i fulls de crida per VHF. No és una carta: per navegar, fes servir cartes nàutiques."
+      },
+      "author": "NoGaOS",
+      "sdkVersion": ">=247",
+      "languages": [
+        "en",
+        "ca"
+      ],
+      "permissions": [
+        "SERIAL_PORTS",
+        "USER_APP_CACHE"
+      ],
+      "fileExtensions": [
+        {
+          "extension": "trip",
+          "icon": "32x32-only/ship.ico",
+          "name": {
+            "en": "Trip",
+            "ca": "Travessia"
+          }
+        }
+      ],
+      "category": "PROGRAMS",
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/navigation/1/nogaos-app-navigation-1.jar",
+      "sha256": "9cb58dfb61a10028f277b63c4ee7378901bbe8298683d3d2c0ba200b0f3237b2"
+    }
+  ]
+}
