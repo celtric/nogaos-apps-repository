@@ -36,6 +36,111 @@
       "category": "PROGRAMS",
       "jar": "https://celtric.github.io/nogaos-apps-repository/apps/navigation/1/nogaos-app-navigation-1.jar",
       "sha256": "9cb58dfb61a10028f277b63c4ee7378901bbe8298683d3d2c0ba200b0f3237b2"
+    },
+    {
+      "id": "radio",
+      "name": {
+        "en": "Radio",
+        "ca": "Ràdio"
+      },
+      "version": "1",
+      "description": {
+        "en": "Listen to FM radio stations, aircraft and boats with a USB radio receiver (an RTL-SDR stick) plugged into the computer. It only listens: it cannot transmit. Needs the rtl-sdr package on the computer and a grown-up's approval in Applications.",
+        "ca": "Escolta emissores de ràdio FM, avions i vaixells amb un receptor de ràdio USB (un pal RTL-SDR) connectat a l'ordinador. Només escolta: no pot emetre. Necessita el paquet rtl-sdr a l'ordinador i l'aprovació d'un adult a Aplicacions."
+      },
+      "author": "NoGaOS",
+      "sdkVersion": ">=249",
+      "languages": [
+        "en",
+        "ca"
+      ],
+      "permissions": [
+        "HOST_PROGRAMS"
+      ],
+      "hostPrograms": [
+        {
+          "id": "wbfm",
+          "program": "rtl_fm",
+          "arguments": [
+            "-f",
+            "{frequency}",
+            "-M",
+            "wbfm",
+            "-s",
+            "200000",
+            "-r",
+            "48000",
+            "-"
+          ],
+          "parameters": {
+            "frequency": {
+              "type": "integer",
+              "min": 24000000,
+              "max": 1750000000
+            }
+          }
+        },
+        {
+          "id": "nfm",
+          "program": "rtl_fm",
+          "arguments": [
+            "-f",
+            "{frequency}",
+            "-M",
+            "fm",
+            "-s",
+            "24000",
+            "-l",
+            "{squelch}",
+            "-"
+          ],
+          "parameters": {
+            "frequency": {
+              "type": "integer",
+              "min": 24000000,
+              "max": 1750000000
+            },
+            "squelch": {
+              "type": "integer",
+              "min": 0,
+              "max": 1000
+            }
+          }
+        },
+        {
+          "id": "am",
+          "program": "rtl_fm",
+          "arguments": [
+            "-f",
+            "{frequency}",
+            "-M",
+            "am",
+            "-s",
+            "24000",
+            "-E",
+            "dc",
+            "-l",
+            "{squelch}",
+            "-"
+          ],
+          "parameters": {
+            "frequency": {
+              "type": "integer",
+              "min": 24000000,
+              "max": 1750000000
+            },
+            "squelch": {
+              "type": "integer",
+              "min": 0,
+              "max": 1000
+            }
+          }
+        }
+      ],
+      "singleInstance": true,
+      "category": "PROGRAMS",
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/radio/1/nogaos-app-radio-1.jar",
+      "sha256": "a0da7d7ab7c28f78a302241c5d8732a4d63599e6edc53b8ceca2d2e32644bff7"
     }
   ]
 }
