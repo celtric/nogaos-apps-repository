@@ -8,7 +8,7 @@
         "en": "Navigation",
         "ca": "Navegació"
       },
-      "version": "1",
+      "version": "2",
       "description": {
         "en": "Where you are from a GPS receiver plugged into the computer, the towns and ports of the Catalan coast with their radio channels, your own waypoints, distance and bearing to a place, your trips recorded into files of your own to replay later, and VHF call sheets. Not a chart: use nautical charts to navigate.",
         "ca": "On ets segons un receptor GPS connectat a l'ordinador, els pobles i ports de la costa catalana amb els seus canals de ràdio, els teus punts de pas, la distància i el rumb fins a un lloc, les travessies desades en fitxers teus per tornar-les a veure, i fulls de crida per VHF. No és una carta: per navegar, fes servir cartes nàutiques."
@@ -34,8 +34,8 @@
         }
       ],
       "category": "PROGRAMS",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/navigation/1/nogaos-app-navigation-1.jar",
-      "sha256": "9cb58dfb61a10028f277b63c4ee7378901bbe8298683d3d2c0ba200b0f3237b2"
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/navigation/2/nogaos-app-navigation-2.jar",
+      "sha256": "af89dd1806d7df1fdaec5d1b7bbe0b3ee03eafc7175c2fe4bff4b009139a0a7a"
     },
     {
       "id": "radio",
@@ -43,7 +43,7 @@
         "en": "Radio",
         "ca": "Ràdio"
       },
-      "version": "1",
+      "version": "2",
       "description": {
         "en": "Listen to FM radio stations, aircraft and boats with a USB radio receiver (an RTL-SDR stick) plugged into the computer. It only listens: it cannot transmit. Needs the rtl-sdr package on the computer and a grown-up's approval in Applications.",
         "ca": "Escolta emissores de ràdio FM, avions i vaixells amb un receptor de ràdio USB (un pal RTL-SDR) connectat a l'ordinador. Només escolta: no pot emetre. Necessita el paquet rtl-sdr a l'ordinador i l'aprovació d'un adult a Aplicacions."
@@ -139,8 +139,8 @@
       ],
       "singleInstance": true,
       "category": "PROGRAMS",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/radio/1/nogaos-app-radio-1.jar",
-      "sha256": "a0da7d7ab7c28f78a302241c5d8732a4d63599e6edc53b8ceca2d2e32644bff7"
+      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/radio/2/nogaos-app-radio-2.jar",
+      "sha256": "4cded8776e96544fa03ed54b94a5ed60049f724473468a481514752754eecb87"
     }
   ]
 }
