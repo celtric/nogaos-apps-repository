@@ -23,7 +23,7 @@
         "SPEECH"
       ],
       "category": "EDUCATION",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/blood/5/nogaos-app-blood-5.jar",
+      "jar": "https://apps.nogaos.org/apps/blood/5/nogaos-app-blood-5.jar",
       "sha256": "74893c2e1d63c8990d8da575bfbd39b850e16d0c80d6ca90211ea07a7a46af05"
     },
     {
@@ -45,7 +45,7 @@
       ],
       "permissions": [],
       "category": "GAMES",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/bricks/5/nogaos-app-bricks-5.jar",
+      "jar": "https://apps.nogaos.org/apps/bricks/5/nogaos-app-bricks-5.jar",
       "sha256": "1c8e8b153e1a0c73381e6d1843146d9d58c196d42130e33bdecea384e8623e14"
     },
     {
@@ -67,7 +67,7 @@
       ],
       "permissions": [],
       "category": "EDUCATION",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/geography/5/nogaos-app-geography-5.jar",
+      "jar": "https://apps.nogaos.org/apps/geography/5/nogaos-app-geography-5.jar",
       "sha256": "598c3fae6b180597973887ceceb6fbf0d28f775d5285b469914addb18cac68e3"
     },
     {
@@ -92,7 +92,7 @@
         "USER_APP_CACHE"
       ],
       "category": "EDUCATION",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/globe/5/nogaos-app-globe-5.jar",
+      "jar": "https://apps.nogaos.org/apps/globe/5/nogaos-app-globe-5.jar",
       "sha256": "7e7df365f4627f7a6513c179a11cb25a8d3d93455aca43d813ee443e94d4c113"
     },
     {
@@ -127,7 +127,7 @@
         }
       ],
       "category": "PROGRAMS",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/newspaper/5/nogaos-app-newspaper-5.jar",
+      "jar": "https://apps.nogaos.org/apps/newspaper/5/nogaos-app-newspaper-5.jar",
       "sha256": "f99d06f5029ccda8edb699d52efd8f1369d30c6bf63be38c470c7c734bc136de"
     },
     {
@@ -150,7 +150,7 @@
       "permissions": [],
       "fileExtensions": [],
       "category": "EDUCATION",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/space/5/nogaos-app-space-5.jar",
+      "jar": "https://apps.nogaos.org/apps/space/5/nogaos-app-space-5.jar",
       "sha256": "72547a25fe5ed902fa0502c71a908b699836e4f7b434bb3e33586b83be3e9eb9"
     },
     {
@@ -173,7 +173,7 @@
       "permissions": [],
       "fileExtensions": [],
       "category": "EDUCATION",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/trig/5/nogaos-app-trig-5.jar",
+      "jar": "https://apps.nogaos.org/apps/trig/5/nogaos-app-trig-5.jar",
       "sha256": "b8bcac2f541ea566afbefc419cb9b045443449dfed8c198133ab53f1fb92ace0"
     }
   ]

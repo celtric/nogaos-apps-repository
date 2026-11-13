@@ -34,7 +34,7 @@
         }
       ],
       "category": "PROGRAMS",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/navigation/3/nogaos-app-navigation-3.jar",
+      "jar": "https://apps.nogaos.org/apps/navigation/3/nogaos-app-navigation-3.jar",
       "sha256": "fb9f3c2585a4d8793e3e6a65838106b0384383e21a17f8b5c41d64894cb9e8b5"
     },
     {
@@ -88,7 +88,7 @@
       ],
       "singleInstance": true,
       "category": "PROGRAMS",
-      "jar": "https://celtric.github.io/nogaos-apps-repository/apps/radio/4/nogaos-app-radio-4.jar",
+      "jar": "https://apps.nogaos.org/apps/radio/4/nogaos-app-radio-4.jar",
       "sha256": "b96c615bba19fde6f9585f7579e7c752bade9c8926670e48fd21a13186e3d5cb"
     }
   ]
